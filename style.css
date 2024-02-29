@@ -1,0 +1,43 @@
+body {
+    background-color: royalblue;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    border: 10px solid black;
+}
+
+.left-side img {
+    width: 50vw; /* 50% of the viewport width */
+    height: 50vh; /* 50% of the viewport height */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.right-side {
+    padding: 20px;
+}
+
+h1, p, #timer {
+    color: white;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
+
+#countdown {
+    margin-top: 20px;
+    font-size: 16px;
+    color: brown;
+}
+
+.text1 {
+  font-size: 30px;  
+}
